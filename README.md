@@ -12,7 +12,7 @@ privado — aqui está só o protocolo.
 ## Usar num site
 
 ```sh
-npm install "github:Codati-Tech/codati-contrato#v1.0.0"
+npm install "git+https://github.com/Codati-Tech/codati-contrato.git#v1.0.1"
 ```
 
 | Entrada | O que é |
