@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * `npm run verificar:contrato` — o site cumpre a parte do contrato que dá
  * para conferir com código?

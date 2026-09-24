@@ -1,6 +1,6 @@
 {
   "name": "codati-contrato",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "O contrato entre um site e a plataforma Codati: a ponte da prévia, as anotações do editor, o manifesto, os formulários e o verificador.",
   "type": "module",
   "license": "UNLICENSED",
