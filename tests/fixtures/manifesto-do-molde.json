@@ -1,0 +1,576 @@
+{
+    "version": 1,
+    "pages": {
+        "pt-br": [
+            "home",
+            "privacidade"
+        ]
+    },
+    "sections": {
+        "navigation": {
+            "label": "Menu",
+            "fields": [
+                {
+                    "key": "brand",
+                    "label": "Nome do negócio",
+                    "type": "text",
+                    "maxLength": 60
+                },
+                {
+                    "key": "tagline",
+                    "label": "Linha de apoio",
+                    "type": "text",
+                    "maxLength": 90
+                },
+                {
+                    "key": "logo",
+                    "label": "Logotipo",
+                    "type": "image"
+                },
+                {
+                    "key": "cta.label",
+                    "label": "Texto do botão",
+                    "type": "text",
+                    "maxLength": 30
+                },
+                {
+                    "key": "cta.link",
+                    "label": "Link do botão",
+                    "type": "url"
+                }
+            ],
+            "lists": [
+                {
+                    "key": "links",
+                    "label": "Links do menu",
+                    "itemLabel": "link",
+                    "resizable": true,
+                    "minItems": 2,
+                    "maxItems": 6,
+                    "fields": [
+                        {
+                            "key": "label",
+                            "label": "Texto",
+                            "type": "text",
+                            "maxLength": 24
+                        },
+                        {
+                            "key": "href",
+                            "label": "Destino",
+                            "type": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hero": {
+            "label": "Topo",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 40
+                },
+                {
+                    "key": "headline",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 90
+                },
+                {
+                    "key": "highlight",
+                    "label": "Destaque do título",
+                    "type": "text",
+                    "maxLength": 30
+                },
+                {
+                    "key": "subheadline",
+                    "label": "Subtítulo",
+                    "type": "longtext",
+                    "maxLength": 200
+                },
+                {
+                    "key": "image",
+                    "label": "Imagem",
+                    "type": "image"
+                },
+                {
+                    "key": "imageAlt",
+                    "label": "Descrição da imagem",
+                    "type": "text",
+                    "maxLength": 120
+                },
+                {
+                    "key": "cta.label",
+                    "label": "Texto do botão",
+                    "type": "text",
+                    "maxLength": 30
+                },
+                {
+                    "key": "cta.link",
+                    "label": "Link do botão",
+                    "type": "url"
+                },
+                {
+                    "key": "note",
+                    "label": "Observação",
+                    "type": "text",
+                    "maxLength": 200
+                }
+            ],
+            "lists": []
+        },
+        "services": {
+            "label": "Serviços",
+            "fields": [
+                {
+                    "key": "title",
+                    "label": "Título da seção",
+                    "type": "text",
+                    "maxLength": 60
+                },
+                {
+                    "key": "subtitle",
+                    "label": "Subtítulo",
+                    "type": "longtext",
+                    "maxLength": 200
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Serviços",
+                    "itemLabel": "serviço",
+                    "resizable": true,
+                    "minItems": 2,
+                    "maxItems": 9,
+                    "fields": [
+                        {
+                            "key": "title",
+                            "label": "Nome",
+                            "type": "text",
+                            "maxLength": 60
+                        },
+                        {
+                            "key": "description",
+                            "label": "Descrição",
+                            "type": "longtext",
+                            "maxLength": 240
+                        }
+                    ]
+                }
+            ]
+        },
+        "proof": {
+            "label": "Prova",
+            "fields": [
+                {
+                    "key": "title",
+                    "label": "Título da seção",
+                    "type": "text",
+                    "maxLength": 60
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Depoimentos e números",
+                    "itemLabel": "item",
+                    "resizable": true,
+                    "minItems": 1,
+                    "maxItems": 6,
+                    "fields": [
+                        {
+                            "key": "quote",
+                            "label": "Depoimento",
+                            "type": "longtext",
+                            "maxLength": 280
+                        },
+                        {
+                            "key": "author",
+                            "label": "Quem disse",
+                            "type": "text",
+                            "maxLength": 60
+                        },
+                        {
+                            "key": "role",
+                            "label": "Relação com o negócio",
+                            "type": "text",
+                            "maxLength": 60
+                        },
+                        {
+                            "key": "value",
+                            "label": "Número",
+                            "type": "text",
+                            "maxLength": 12
+                        },
+                        {
+                            "key": "label",
+                            "label": "O que o número mede",
+                            "type": "text",
+                            "maxLength": 40
+                        }
+                    ]
+                }
+            ]
+        },
+        "faq": {
+            "label": "Dúvidas",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 80
+                },
+                {
+                    "key": "title",
+                    "label": "Título da seção",
+                    "type": "text",
+                    "maxLength": 60
+                },
+                {
+                    "key": "subtitle",
+                    "label": "Subtítulo",
+                    "type": "longtext",
+                    "maxLength": 200
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Perguntas",
+                    "itemLabel": "pergunta",
+                    "resizable": true,
+                    "minItems": 2,
+                    "maxItems": 12,
+                    "fields": [
+                        {
+                            "key": "question",
+                            "label": "Pergunta",
+                            "type": "text",
+                            "maxLength": 120
+                        },
+                        {
+                            "key": "answer",
+                            "label": "Resposta",
+                            "type": "longtext",
+                            "maxLength": 600
+                        }
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "label": "Chamada",
+            "fields": [
+                {
+                    "key": "title",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 90
+                },
+                {
+                    "key": "description",
+                    "label": "Descrição",
+                    "type": "longtext",
+                    "maxLength": 200
+                },
+                {
+                    "key": "note",
+                    "label": "Observação",
+                    "type": "text",
+                    "maxLength": 80
+                },
+                {
+                    "key": "cta.label",
+                    "label": "Texto do botão",
+                    "type": "text",
+                    "maxLength": 30
+                },
+                {
+                    "key": "cta.link",
+                    "label": "Link do botão",
+                    "type": "url"
+                }
+            ],
+            "lists": [
+                {
+                    "key": "channels",
+                    "label": "Canais de contato",
+                    "itemLabel": "canal",
+                    "resizable": true,
+                    "minItems": 1,
+                    "maxItems": 4,
+                    "fields": [
+                        {
+                            "key": "label",
+                            "label": "Nome do canal",
+                            "type": "text",
+                            "maxLength": 24
+                        },
+                        {
+                            "key": "value",
+                            "label": "O que aparece",
+                            "type": "text",
+                            "maxLength": 60
+                        },
+                        {
+                            "key": "href",
+                            "label": "Destino",
+                            "type": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        "footer": {
+            "label": "Rodapé",
+            "fields": [
+                {
+                    "key": "company.name",
+                    "label": "Nome da empresa",
+                    "type": "text",
+                    "maxLength": 80
+                }
+            ],
+            "lists": [
+                {
+                    "key": "links",
+                    "label": "Links do rodapé",
+                    "itemLabel": "link",
+                    "resizable": true,
+                    "minItems": 1,
+                    "maxItems": 6,
+                    "fields": [
+                        {
+                            "key": "label",
+                            "label": "Texto",
+                            "type": "text",
+                            "maxLength": 24
+                        },
+                        {
+                            "key": "href",
+                            "label": "Destino",
+                            "type": "url"
+                        }
+                    ]
+                }
+            ]
+        },
+        "problem": {
+            "label": "Problemas que resolvemos",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 80,
+                    "help": "Linha curta acima do título."
+                },
+                {
+                    "key": "title",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 200
+                },
+                {
+                    "key": "description",
+                    "label": "Descrição",
+                    "type": "longtext",
+                    "maxLength": 2000
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Problemas",
+                    "itemLabel": "problema",
+                    "resizable": false,
+                    "fields": [
+                        {
+                            "key": "title",
+                            "label": "Título",
+                            "type": "text",
+                            "maxLength": 160
+                        },
+                        {
+                            "key": "description",
+                            "label": "Texto",
+                            "type": "longtext",
+                            "maxLength": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        "method": {
+            "label": "Como trabalhamos",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 80,
+                    "help": "Linha curta acima do título."
+                },
+                {
+                    "key": "title",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 200
+                },
+                {
+                    "key": "description",
+                    "label": "Descrição",
+                    "type": "longtext",
+                    "maxLength": 2000
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Etapas",
+                    "itemLabel": "etapa",
+                    "resizable": false,
+                    "fields": [
+                        {
+                            "key": "title",
+                            "label": "Título",
+                            "type": "text",
+                            "maxLength": 160
+                        },
+                        {
+                            "key": "duration",
+                            "label": "Prazo",
+                            "type": "text",
+                            "maxLength": 60
+                        },
+                        {
+                            "key": "description",
+                            "label": "Texto",
+                            "type": "longtext",
+                            "maxLength": 1000
+                        },
+                        {
+                            "key": "deliverable",
+                            "label": "O que você recebe",
+                            "type": "longtext",
+                            "maxLength": 600
+                        }
+                    ]
+                }
+            ]
+        },
+        "content": {
+            "label": "Texto livre",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 80,
+                    "help": "Linha curta acima do título."
+                },
+                {
+                    "key": "title",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 200
+                },
+                {
+                    "key": "subtitle",
+                    "label": "Subtítulo",
+                    "type": "text",
+                    "maxLength": 300
+                },
+                {
+                    "key": "content",
+                    "label": "Texto",
+                    "type": "markdown",
+                    "maxLength": 20000
+                },
+                {
+                    "key": "image",
+                    "label": "Imagem",
+                    "type": "image"
+                }
+            ]
+        },
+        "principles": {
+            "label": "Princípios",
+            "fields": [
+                {
+                    "key": "eyebrow",
+                    "label": "Chapéu",
+                    "type": "text",
+                    "maxLength": 80,
+                    "help": "Linha curta acima do título."
+                },
+                {
+                    "key": "title",
+                    "label": "Título",
+                    "type": "text",
+                    "maxLength": 200
+                },
+                {
+                    "key": "description",
+                    "label": "Descrição",
+                    "type": "longtext",
+                    "maxLength": 2000
+                }
+            ],
+            "lists": [
+                {
+                    "key": "items",
+                    "label": "Princípios",
+                    "itemLabel": "princípio",
+                    "resizable": false,
+                    "fields": [
+                        {
+                            "key": "title",
+                            "label": "Título",
+                            "type": "text",
+                            "maxLength": 160
+                        },
+                        {
+                            "key": "description",
+                            "label": "Texto",
+                            "type": "longtext",
+                            "maxLength": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "forms": {
+        "contato": {
+            "label": "Contato",
+            "fields": [
+                {
+                    "key": "name",
+                    "label": "Nome",
+                    "type": "text",
+                    "required": true
+                },
+                {
+                    "key": "email",
+                    "label": "E-mail",
+                    "type": "email"
+                },
+                {
+                    "key": "phone",
+                    "label": "WhatsApp",
+                    "type": "phone"
+                },
+                {
+                    "key": "message",
+                    "label": "O que você precisa?",
+                    "type": "longtext"
+                }
+            ]
+        }
+    }
+}

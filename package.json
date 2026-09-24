@@ -1,0 +1,33 @@
+{
+  "name": "codati-contrato",
+  "version": "1.0.0",
+  "description": "O contrato entre um site e a plataforma Codati: a ponte da prévia, as anotações do editor, o manifesto, os formulários e o verificador.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "repository": "github:Codati-Tech/codati-contrato",
+  "exports": {
+    "./ponte": { "types": "./dist/ponte.d.ts", "default": "./dist/ponte.js" },
+    "./anotacao": { "types": "./dist/editable.d.ts", "default": "./dist/editable.js" },
+    "./manifesto": { "types": "./dist/manifest.d.ts", "default": "./dist/manifest.js" },
+    "./formulario": { "types": "./dist/formulario.d.ts", "default": "./dist/formulario.js" },
+    "./leads": { "types": "./dist/leads.d.ts", "default": "./dist/leads.js" },
+    "./contrato": { "types": "./dist/contrato.d.ts", "default": "./dist/contrato.js" }
+  },
+  "bin": { "codati-verificar-contrato": "./bin/verificar-contrato.mjs" },
+  "files": ["dist", "bin", "src"],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "conferir:dist": "node scripts/conferir-dist.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
+  },
+  "engines": { "node": ">=22" }
+}
